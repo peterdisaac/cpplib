@@ -13,16 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\List">
+      <UniqueIdentifier>{323579ab-7ad2-4bbb-8972-40d95b3f312b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LinkedList.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\List</Filter>
     </ClInclude>
     <ClInclude Include="Node.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\List</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -33,10 +36,10 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="LinkedList.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\List</Filter>
     </ClCompile>
     <ClCompile Include="Node.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\List</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

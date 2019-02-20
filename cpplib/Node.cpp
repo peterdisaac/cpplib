@@ -11,7 +11,7 @@ Node::Node(int data)
 
 Node::~Node()
 {
-	delete this->next;
+
 }
 
 void Node::setData(int data)
@@ -21,7 +21,6 @@ void Node::setData(int data)
 
 void Node::setNext(Node *next)
 {
-	if (next != nullptr)
 		this->next = next;
 }
 
@@ -40,11 +39,10 @@ Node* Node::getNext()
 
 Node* Node::getPrev()
 {
-	return this->next;
+	return this->prev;
 }
 
 void Node::setPrev(Node *prev)
 {
-	if (prev != nullptr)
 		this->prev = prev;
 }

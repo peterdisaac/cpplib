@@ -15,9 +15,8 @@ int main()
 	list->insert(4);
 	list->insert(1);
 	list->printList();
-	list->insert(10, 2);
-	//list->insert(15, 0);
-	//list->insert(55, 6);
+	list->remove();
+	list->remove();
 	list->printList();
 	return 0;
 }
